@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (too large for GitHub)
+*.csv
+*.parquet
+
+# Trained models (too large for GitHub)
+models/*.zip
+models/rl_trader_*
+
+# Results (regeneratable)
+results/tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+smoke_test.py
+vc_redist.x64.exe
